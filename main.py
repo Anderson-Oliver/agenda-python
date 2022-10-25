@@ -3,7 +3,6 @@ from PyQt5 import uic,QtWidgets
 def chama_tela_login():
     TelaLogin.show()
     TelaPrincipal.close()
-    print('Apareceu a tela!')
 
 def chama_tela_usuario():
     TelaUsuario.show()
