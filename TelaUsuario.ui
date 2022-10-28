@@ -258,10 +258,22 @@ color: rgb(255, 255, 255);</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(85, 85, 255);
+        <string notr="true">QPushButton {
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 255);
+}
 
-color: rgb(255, 255, 255);</string>
+QPushButton:pressed {
+
+	background-color: rgb(255, 255, 255);
+	
+	color: rgb(85, 85, 255);
+
+}</string>
        </property>
        <property name="text">
         <string>Adicionar</string>
