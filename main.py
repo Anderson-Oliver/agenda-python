@@ -1,6 +1,5 @@
 from PyQt5 import uic,QtWidgets
 
-
 def chama_tela_login():
     TelaLogin.show()
     TelaPrincipal.close()

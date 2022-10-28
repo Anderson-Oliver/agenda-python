@@ -237,8 +237,8 @@ color: rgb(255, 255, 255);</string>
      <rect>
       <x>30</x>
       <y>410</y>
-      <width>771</width>
-      <height>91</height>
+      <width>741</width>
+      <height>57</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -281,7 +281,7 @@ QPushButton:pressed {
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="btnConsultar">
+      <widget class="QPushButton" name="btnConsulta">
        <property name="font">
         <font>
          <family>Arial</family>
@@ -290,12 +290,25 @@ QPushButton:pressed {
          <bold>true</bold>
         </font>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(85, 85, 255);</string>
+        <string notr="true">QPushButton {
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed {
+
+	background-color: rgb(255, 255, 255);
+	
+	color: rgb(85, 85, 255);
+
+}</string>
        </property>
        <property name="text">
-        <string>Cosultar</string>
+        <string>Consultar</string>
        </property>
       </widget>
      </item>
@@ -309,9 +322,22 @@ background-color: rgb(85, 85, 255);</string>
          <bold>true</bold>
         </font>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(85, 85, 255);</string>
+        <string notr="true">QPushButton {
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed {
+
+	background-color: rgb(255, 255, 255);
+	
+	color: rgb(85, 85, 255);
+
+}</string>
        </property>
        <property name="text">
         <string>Atualizar</string>
@@ -319,7 +345,7 @@ background-color: rgb(85, 85, 255);</string>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="btnExcluir">
+      <widget class="QPushButton" name="btnDeletar">
        <property name="font">
         <font>
          <family>Arial</family>
@@ -332,11 +358,21 @@ background-color: rgb(85, 85, 255);</string>
         <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(85, 85, 255);</string>
+        <string notr="true">QPushButton {
+background-color: rgb(85, 85, 255);
+color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed {
+
+	background-color: rgb(255, 255, 255);
+	
+	color: rgb(85, 85, 255);
+
+}</string>
        </property>
        <property name="text">
-        <string>Excluir</string>
+        <string>Deletar</string>
        </property>
       </widget>
      </item>
